@@ -80,8 +80,8 @@ def services(request):
 def product(request):
     return render(request,'product.html')
 
-def java(request):
-    return render(request,'java.html')
+def blog(request):
+    return render(request,'blog.html')
 
 def html(request):
     return render(request,'html.html')

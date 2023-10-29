@@ -10,31 +10,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/flaticon.css">
-<link rel="stylesheet" href="css/tiny-slider.css">
-<link rel="stylesheet" href="css/glightbox.min.css">
-<link rel="stylesheet" href="css/aos.css">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../static/css/animate.css">
+<link rel="stylesheet" href="../static/css/flaticon.css">
+<link rel="stylesheet" href="../static/css/tiny-slider.css">
+<link rel="stylesheet" href="../static/css/glightbox.min.css">
+<link rel="stylesheet" href="../static/css/aos.css">
+<link rel="stylesheet" href="../static/css/style.css">
 <script nonce="d50b8b2d-d52b-4981-aff1-49ae47570d57">(function(w,d){!function(a,b,c,d){a[c]=a[c]||{};a[c].executed=[];a.zaraz={deferred:[],listeners:[]};a.zaraz.q=[];a.zaraz._f=function(e){return async function(){var f=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:f})}};for(const g of["track","set","debug"])a.zaraz[g]=a.zaraz._f(g);a.zaraz.init=()=>{var h=b.getElementsByTagName(d)[0],i=b.createElement(d),j=b.getElementsByTagName("title")[0];j&&(a[c].t=b.getElementsByTagName("title")[0].text);a[c].x=Math.random();a[c].w=a.screen.width;a[c].h=a.screen.height;a[c].j=a.innerHeight;a[c].e=a.innerWidth;a[c].l=a.location.href;a[c].r=b.referrer;a[c].k=a.screen.colorDepth;a[c].n=b.characterSet;a[c].o=(new Date).getTimezoneOffset();if(a.dataLayer)for(const n of Object.entries(Object.entries(dataLayer).reduce(((o,p)=>({...o[1],...p[1]})),{})))zaraz.set(n[0],n[1],{scope:"page"});a[c].q=[];for(;a.zaraz.q.length;){const q=a.zaraz.q.shift();a[c].q.push(q)}i.defer=!0;for(const r of[localStorage,sessionStorage])Object.keys(r||{}).filter((t=>t.startsWith("_zaraz_"))).forEach((s=>{try{a[c]["z_"+s.slice(7)]=JSON.parse(r.getItem(s))}catch{a[c]["z_"+s.slice(7)]=r.getItem(s)}}));i.referrerPolicy="origin";i.src="../../cdn-cgi/zaraz/sd0d9.js?z="+btoa(encodeURIComponent(JSON.stringify(a[c])));h.parentNode.insertBefore(i,h)};["complete","interactive"].includes(b.readyState)?zaraz.init():a.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
 <body>
 <nav class="navbar ftco-navbar-light">
 <div class="container-xl">
-<a class="navbar-brand align-items-center" href="index.html">
-<span class>Schmt.</span>
+<a class="navbar-brand align-items-center" href="index">
+<span class></span>
+</a>
 </a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-<li class="nav-item"><a class="nav-link active" href="index">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="services">Products</a></li>
-<li class="nav-item"><a class="nav-link" href="blog">Brochure</a></li>
-<li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
+  <li class="nav-item"><a class="nav-link active" href="index">Home</a></li>
+  <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+  <li class="nav-item"><a class="nav-link" href="services">Products</a></li>
+  <li class="nav-item"><a class="nav-link" href="blog">Brochure</a></li>
+  <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
 </ul>
 
+</div>
+</div>
+</nav>
 </div>
 </div>
 </nav>
@@ -43,11 +47,17 @@
 <div class="container">
 <div class="row no-gutters slider-text align-items-end justify-content-center">
 <div class="col-md-9 pt-5 text-center">
-<p class="breadcrumbs"><span class="me-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Blog <i class="fa fa-chevron-right"></i></span></p>
-<h1 class="mb-0 bread">Blog Posts</h1>
+<p class="breadcrumbs"><span class="me-2"><a href="index">Home <i class="fa fa-chevron-right"></i></a></span> <span>Brochure <i class="fa fa-chevron-right"></i></span></p>
+<h1 class="mb-0 bread">Brochure</h1>
+<div class="centered-wrapper">	
+	<p align="justify">
+    <a class="text-center" href="../static/images/Creators-brochure.pdf" target="_blank"><img src="../static/images/pdf-icon.png" class="left-image"></a> <a href="pdf/Creators-brochure.pdf" target="_blank"><h4 style="padding-top:80px;">Download Company Brochure</h4></a>
+</p>
 </div>
 </div>
 </div>
+
+
 </section>
 <section class="ftco-section bg-light">
 <div class="container-xl">
@@ -98,7 +108,7 @@
 </div>
 <div class="col-md-6 col-lg-3 d-flex">
 <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-<a href="blog-single.html" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_5.jpg');">
+<a href="blog-single" class="block-20 img d-flex align-items-end" style="background-image: url('images/image_5.jpg');">
 </a>
 <div class="text">
 <p class="meta"><span>Admin</span> <span>Jan. 07, 2021</span><a href="#">3 Comments</a></p>
