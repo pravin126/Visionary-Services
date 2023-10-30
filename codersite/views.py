@@ -83,55 +83,7 @@ def product(request):
 def blog(request):
     return render(request,'blog.html')
 
-def html(request):
-    return render(request,'html.html')
 
-def css(request):
-    return render(request,'css.html')
-
-def javas(request):
-    return render(request,'javas.html')
-
-def python(request):
-    return render(request,'python.html')
-
-def sql(request):
-    return render(request,'sql.html')
-
-def php(request):
-    return render(request,'php.html')
-
-
-
-def fresher(request):
-    return render(request,'fresher.html')
-
-def professional(request):
-    return render(request,'professional.html')
-
-def softskills(request):
-    return render(request,'softskills.html')
-
-def incompany(request):
-    return render(request,'incompany.html')
-
-def inplant(request):
-    return render(request,'inplant.html')
-
-def internship(request):
-    return render(request,'internship.html')
-
-def virtual(request):
-    return render(request,'virtual.html')
-
-def elearning(request):
-    return render(request,'elearning.html')
-
-def overview(request):
-    return render(request,'overview.html')
-
-def hrservices(request):
-    return render(request,'hrservices.html')
 
 
 
